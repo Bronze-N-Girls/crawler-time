@@ -42,4 +42,3 @@ if isinstance(ranked_players, list):
         print(f"{i}. {get_game_name_by_puuid(player['puuid'])} - {player['leaguePoints']} LP - {player['wins']}승 {player['losses']}패")
 else:
     print(ranked_players)
-
